@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+background: white;
+
+
+}
+#header .container .navbar{
+    background:white;
+}
+#header .container .navbar .btn{
+    background: white;
+    color: blue;
+    border:2px solid blue;
+    
+}
+#header .container .navbar .btn:hover{
+    color: white;
+    background-color: blue;
+}
+#header .container .navbar ul li{
+    padding: 0px 5px;
+}
+#header .container span:first-child {
+    color: orange;
+}
+#header .container span:last-child {
+    color: #00BFFF;
+} 
+#header .container .navbar-brand{
+font-size: 30px ;
+font-weight: bold;
+color: rgb(89, 83, 83);
+}
+#header .container .navbar ul li .active{
+    color: #00BFFF;
+}
+#header .container .navbar ul li a:hover{
+    color: #00BFFF;
+}
+#home{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    position: relative;
+}
+#home .container .row .div1{
+  margin-top: 80px;
+}
+#home .container .row .div1 h1{
+    color: gray;
+    font-size: 35px;
+}
+#home .container .row .div1 p{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#home .container .row .button {
+    border-radius: 7px;
+    text-decoration: none;
+    background: #00BFFF;
+    padding:  10px 35px;
+    width: 90px;
+    color: white;
+    box-shadow: 0 5px 10px yellowgreen;
+}
+#home .container .row .button:hover{
+    background-color: blue;
+box-shadow: 0 5px 10px blue;
+}
+#home .container .row img{
+    animation:animation 5s infinite ;
+    position: absolute;
+    top: 0%;
+    width: 500px;
+}
+#home2 .container .row i{
+    color: #00BFFF;
+    font-size: 25px;
+    padding: 10px 0;
+}
+#home2 .container .row h3{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#home2 .container .row h3:hover{
+    color: #00BFFF;
+}
+#home2 .container .row p{
+    padding: 8px 0;
+    color: rgb(117, 106, 106);
+}
+#about{
+    height: auto;
+    margin:50px 0;
+}
+#about .container .row img{
+    width: 100%;
+
+}
+#about .container .row p{
+    color: rgb(117, 106, 106);
+}
+
+#service{
+    height: auto;
+   padding: 30px 0;
+    background: rgb(222, 215, 215);
+}
+#service .container .first{
+    padding-bottom: 20px;
+}
+#service .container .first h4{
+    color: gray;
+    font-weight: bold;
+    text-shadow: 15px 15px rgb(176, 169, 169);
+    padding: 20px 0;
+}
+#service .container .row {
+    text-align: center;
+    
+}
+#service .container .row .box{
+    background: white;
+    margin:10px;
+
+}
+#service .container .row .box i{
+    color: #00BFFF;
+    margin: 10px 0;
+    font-size: 22px;
+}
+#service .container .row .box h4{
+    font-size: 16px;
+   padding: 10px 0;
+}
+#service .container .row .box h4:hover{
+    color: #00BFFF;
+}
+#customer{
+    height: auto;
+   padding: 30px 0;
+    background: rgb(222, 215, 215);
+}
+#customer .container .first{
+    padding-bottom: 20px;
+}
+#customer .container .first h4{
+    color: gray;
+    font-weight: bold;
+    text-shadow: 15px 15px rgb(176, 169, 169);
+    padding: 20px 0;
+}
+#contact{
+    height: auto;
+   padding: 30px 0;
+    background: white;
+}
+#contact .container .first{
+    padding-bottom: 20px;
+}
+#contact .container .first h4{
+    color: gray;
+    font-weight: bold;
+    text-shadow: 15px 15px rgb(176, 169, 169);
+    padding: 20px 0;
+
+}
+#contact .container .data , 
+#contact .container .second{
+    background-color: rgb(222, 215, 215);
+    border-top: 3px solid #00BFFF;
+    border-bottom: 3px solid #00BFFF;
+
+}
+#contact .container .data i {
+    color: #00BFFF;
+    font-size: 20px;
+    float: left;
+ 
+    margin: 15px;
+  
+}
+#contact .container .data i:hover{
+    color: white;
+}
+#contact .container .data h4{
+padding-top: 15px;
+padding-right: 20px;
+
+}
+#contact .container .data p{
+    
+padding-right: 20px;
+}
+#footer{
+    height: auto;
+    
+    
+}
+#footer .container .top {
+    padding-top: 100px;
+    text-align: center;
+    height: 50vh;
+    background-color: rgb(243, 243, 243);
+}
+#footer .container .top h2{
+    font-style:inherit;
+    color: rgb(124, 115, 115);
+    font-weight: bold;
+    padding: 20px 15px;
+}
+#footer .container .top .box{
+display: inline;
+background: rgba(244, 237, 237, 0.5);
+margin-left: 15px;
+width: 30px;
+height: 30px;
+
+}
+#footer .container .top .box a {
+    background-color: rgb(236, 225, 225);
+    color: rgb(124, 115, 115);
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+   
+  
+    
+}
+#footer .container .top .box a:hover{
+    background-color: #00BFFF;
+    
+
+}
+@keyframes animation{
+    25% {
+
+        top: 10%;
+    }
+    50% {
+        top: 0%;
+    }
+    75% {
+        top: 10%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+@media(max-width:600px) {
+#home .container .row img {
+    width: 330px;
+}
+#home .container .row .div1 {
+    padding-top: 155px;
+}
+
+}
